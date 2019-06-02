@@ -1,0 +1,72 @@
+METHOD:
+ POST
+URL:
+ /cgi-bin/process.cgi
+HTTP Version:
+ HTTP/1.1
+HEADERS:
+ {User-Agent=Mozilla/4.0, Host=www.tutorialspoint.com, Content-Type=application/x-www-form-urlencoded, Content-Length=length, Accept-Language=en-us, Accept-Encoding=gzip, deflate, Connection=Keep-Alive}
+BODY:
+licenseID=string&content=string&/paramsXML=string
+body body body bodybodybodybodybodybodybody
+body body body bodybodybodybodybodybody body
+
+ERROR DETECTED:
+false
+
+METHOD:
+ DELETE
+URL:
+ /file.html
+HTTP Version:
+ HTTP/1.1
+HEADERS:
+ {}
+BODY:
+ null
+ERROR DETECTED:
+false
+
+METHOD:
+ GET
+URL:
+ /hello.htm
+HTTP Version:
+ HTTP/1.1
+HEADERS:
+ {User-Agent=Mozilla/4.0, Host=www.tutorialspoint.com, Accept-Language=en-us, Accept-Encoding=gzip, deflate, Connection=Keep-Alive}
+BODY:
+ null
+ERROR DETECTED:
+false
+
+METHOD:
+ HEAD
+URL:
+ /hello.htm
+HTTP Version:
+ HTTP/1.1
+HEADERS:
+ {User-Agent=Mozilla/4.0, Host=www.tutorialspoint.com, Accept-Language=en-us, Accept-Encoding=gzip, deflate, Connection=Keep-Alive}
+BODY:
+ null
+ERROR DETECTED:
+false
+
+METHOD:
+ PUT
+URL:
+ /hello.htm
+HTTP Version:
+ HTTP/1.1
+HEADERS:
+ {User-Agent=Mozilla/4.0, Host=www.tutorialspoint.com, Accept-Language=en-us, Connection=Keep-Alive, Content-type=text/html, Content-Length=234}
+BODY:
+<html>
+<body>
+<h1>Hello, World!</h1>
+</body>
+</html>
+
+ERROR DETECTED:
+false
